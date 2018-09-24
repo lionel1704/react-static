@@ -34,8 +34,8 @@ describe('BodyWithMeta', () => {
         routeDate: 'here',
       },
       clientScripts: [
-        <script text="text/javascript" src="main.js" />,
-        <script text="text/javascript" src="bootstrap.js" />,
+        <script src="main.js" />,
+        <script src="bootstrap.js" />,
       ],
       ClientCssHash: () => <style>{'body{ width:100%; height: 100%; }'}</style>,
       config: {},
